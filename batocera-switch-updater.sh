@@ -1553,7 +1553,7 @@ rm -rf $links 2>/dev/null
 if [[ "$(uname -a | awk '{print $3}')" < "6" ]]; then 
    link_yuzu=https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-1321/yuzu-mainline-20230126-ed6df52a5.AppImage
 else 
-   link_yuzu="$(curl -u 1096647586@qq.com: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 https://api.github.com/repos/yuzu-emu/yuzu-mainline/releases/latest | grep browser_download_url | grep .AppImage | cut -d '"' -f 4 | head -n1)"
+   link_yuzu="$(curl -u 1096647586@qq.com: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 https://api.github.com/repos/yuzu-emu/yuzu-mainline/releases/latest | grep browser_download_url | grep .AppImage | cut -d '"' -f 4 | head -n1)"
 fi
 # -------------------------------------------------------------------
 # YUZUEA: 
